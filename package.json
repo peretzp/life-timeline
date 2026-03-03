@@ -1,0 +1,18 @@
+{
+  "name": "life-timeline",
+  "version": "0.1.0",
+  "description": "Unified temporal map of a digital life — location, media, communication, and knowledge stitched into a scrollable, zoomable timeline.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "ingest": "node ingest/cli.js",
+    "ingest:moves": "node ingest/cli.js moves"
+  },
+  "keywords": ["timeline", "location-history", "personal-data", "life-log", "quantified-self"],
+  "author": "Peretz Partensky",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  }
+}

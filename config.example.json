@@ -1,0 +1,28 @@
+{
+  "port": 3004,
+  "ssl": {
+    "cert": "~/.ssl/localhost.crt",
+    "key": "~/.ssl/localhost.key"
+  },
+  "db": "data/timeline.db",
+  "sources": {
+    "moves": {
+      "path": "~/Documents/2018 Moves Data/import moves.zip"
+    },
+    "memoryatlas": {
+      "db": "~/tools/memoryatlas/data/atlas.db"
+    },
+    "calendar": {
+      "db": "~/Library/Group Containers/group.com.apple.calendar/Calendar.sqlitedb"
+    },
+    "daily_notes": {
+      "dir": "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/PracticeLife/Journal/Daily"
+    },
+    "imessage": {
+      "db": "~/Library/Messages/chat.db"
+    },
+    "safari": {
+      "db": "~/Library/Safari/History.db"
+    }
+  }
+}
