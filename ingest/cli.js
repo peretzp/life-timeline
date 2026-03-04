@@ -15,6 +15,9 @@ if (fs.existsSync(configPath)) {
 // Available adapters
 const adapters = {
   moves: () => new (require('./moves'))(),
+  memoryatlas: () => new (require('./memoryatlas'))(),
+  calendar: () => new (require('./calendar'))(),
+  'daily-notes': () => new (require('./daily-notes'))(),
 };
 
 async function main() {
